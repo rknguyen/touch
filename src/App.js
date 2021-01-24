@@ -81,7 +81,7 @@ function App() {
           <Heading>About</Heading>
           <Text>
             Nguyen M. Huy, 19y, Software Engineer. I am currently interested in
-            Deep Learning, Blockchain and Goland. I spend 50% the day for
+            Deep Learning, Blockchain and Golang. I spend 50% the day for
             reading technical news and blogs. Wanna coffee talk with me?, just
             go to my DM (above).
           </Text>
