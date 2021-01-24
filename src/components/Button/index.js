@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
+  outline: none;
   background: #ffffff;
   border-radius: 20px;
   border: 1px solid #c7c2c2;

@@ -48,15 +48,34 @@ function App() {
         </Center>
         <Body>
           <SocialContainer>
-            <SocialButton>
-              <FontAwesomeIcon icon={['fab', 'facebook']} />
-            </SocialButton>
-            <SocialButton>
-              <FontAwesomeIcon icon={['fab', 'instagram']} />
-            </SocialButton>
-            <SocialButton>
-              <FontAwesomeIcon icon={['fab', 'linkedin']} />
-            </SocialButton>
+            <a
+              href={'https://www.facebook.com/rknguyen'}
+              target={'_blank'}
+              rel='noreferrer'
+            >
+              <SocialButton>
+                <FontAwesomeIcon icon={['fab', 'facebook']} />
+              </SocialButton>
+            </a>
+            <a
+              href={'https://www.instagram.com/rknguyen12'}
+              target={'_blank'}
+              rel='noreferrer'
+            >
+              {' '}
+              <SocialButton>
+                <FontAwesomeIcon icon={['fab', 'instagram']} />
+              </SocialButton>
+            </a>
+            <a
+              href={'https://www.linkedin.com/in/rknguyen12'}
+              target={'_blank'}
+              rel='noreferrer'
+            >
+              <SocialButton>
+                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+              </SocialButton>
+            </a>
           </SocialContainer>
 
           <Heading>About</Heading>
