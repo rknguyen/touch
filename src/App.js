@@ -7,9 +7,10 @@ import { HobbyButton, SocialButton } from './components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Container = styled.div`
+  margin: auto;
   display: block;
-  width: 100%;
   padding-top: 30px;
+  max-width: 375px;
 `
 
 const Center = styled.div`
